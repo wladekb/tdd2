@@ -1,0 +1,14 @@
+{
+	"name": "wladek/tdd2",
+	"description": "description_text",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "author's name",
+			"email": "email@example.com"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "4.0.11"
+	}
+}
