@@ -9,6 +9,6 @@
 		}
 	],
 	"require": {
-		"phpunit/phpunit": "4.0.11"
+		"phpunit/phpunit": "3.7.32"
 	}
 }
