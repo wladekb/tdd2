@@ -2,8 +2,10 @@
 
 class Checkout {
 
+    private $total = 0;
+
 	public function sum() {
-		return 40;
+		return $this->total += 40;
 	}
 
 } 
