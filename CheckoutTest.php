@@ -11,6 +11,13 @@ class CheckoutTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals(40,$total);
 	}
 
-	
+    /** @test */
+    public function shouldReturnSum() {
+        $checkout = new Checkout();
+        $total = $checkout->sum('A');
+        $total = $checkout->sum('A');
+
+        $this->assertEquals(80,$total);
+    }
 }
  
